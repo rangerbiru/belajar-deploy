@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ini Halaman HTML saya</title>
+</head>
+
+<body>
+    <h1>Ini H1</h1>
+    <h2>Ini adalah judul website saya</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae tempore, minima necessitatibus nihil dolore
+        omnis fugit voluptatum deleniti unde hic facere similique, optio accusantium ratione soluta qui. Quos, beatae
+        necessitatibus rem iusto unde neque sit, quis minus id natus laborum omnis quia recusandae. Sapiente modi vel at
+        officia distinctio veritatis nesciunt, expedita explicabo libero praesentium ullam ea architecto debitis. Porro
+        architecto eveniet dolorem et fugiat cum laudantium aspernatur dolorum sit blanditiis explicabo animi, maxime
+        esse ab, recusandae sint quia possimus illum. Debitis vero quaerat corrupti nesciunt beatae voluptates fuga quo
+        molestias, voluptas eum culpa repudiandae nulla expedita autem harum. Tempora.</p>
+
+    <!--Ini bagian judul-->
+    <!-- ini bagian komentar -->
+
+    <!-- menampilkan sebuah gambar -->
+    <img src="gambar1.jpeg" alt="contoh gambar" width="300" height="300">
+    <p align="center">ini contoh paragraph</p>
+
+    <!-- Achor Tag -->
+    <a href="https://www.youtube.com/" target="_blank" title="ini youtube">Ini ke youtube</a>
+
+    <!-- Link menuju section tertentu -->
+    <a href="#about" title="About">Ini Bagian About</a>
+
+    <!-- <h2 style="margin-top: 10000px;" id="about">Ini bagian About</h2> -->
+
+    <!-- Link untuk gambar -->
+    <a href="https://upload.wikimedia.org/wikipedia/commons/f/f9/Pemandangan_Dua_Gunung.png">Ini Gambar Bunga</a>
+
+    <br><br>
+    <!-- Ini Form -->
+    <form>
+        <fieldset>
+            <legend align="center">
+                <h2>Ini Form</h2>
+            </legend>
+
+            <label for="nama">Username
+                <input type="text">
+            </label> <br> <br>
+            <label for="pw">Password
+                <input type="password">
+            </label> <br><br>
+            <label for="nama">File
+                <input type="file">
+            </label> <br><br>
+
+            <!-- Radio Button -->
+            <label for="radio">Jenis Kelamin
+                <input type="radio" name="jk" value="laki-laki">Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan
+            </label> <br><br>
+
+            <!-- Checkbox Button -->
+            <label for="checkbox">Makanan Favorite
+                <input type="checkbox" name="makanan" value="Mie Ayam">Mie Ayam
+                <input type="checkbox" name="makanan" value="Mie Ayam">Mie Ayam
+                <input type="checkbox" name="makanan" value="Mie Ayam">Mie Ayam
+            </label><br><br>
+
+            <!-- Select Input -->
+            <label for="select">Agama <br>
+                <select>
+                    <option selected disabled>--Pilih Agama--</option>
+                    <optgroup label="Agama Lama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                    </optgroup>
+                    <optgroup label="Agama Baru">
+                        <option value="satanis">Satanis</option>
+                        <option value="lgbt">lgbt</option>
+                    </optgroup>
+                </select>
+            </label> <br><br>
+
+            <!-- Datalist Input -->
+            <label for="datalist">Bahasa pemrograman
+                <input list="programming" id="program" name="program" placeholder="Pilih bahasa pemrograman">
+
+                <datalist id="programming">
+                    <option value="mie ayam">Mie Ayam</option>
+                    <option value="mie goreng">Mie Goreng</option>
+                    <option value="mie rebus">Mie Rebus</option>
+                    <option value="nasi goreng">Nasi Goreng</option>
+                    <option value="nasi mentah">Nasi Mentah</option>
+                </datalist>
+            </label><br><br>
+
+            <pre>ini        adalah              pre</pre>
+            <code>ini        adalah              pre</code>
+            <p>ini adalah pre</p>
+
+
+            <br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
+
+<style>
+    * {
+        scroll-behavior: smooth;
+    }
+</style>
